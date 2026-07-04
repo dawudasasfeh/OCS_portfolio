@@ -9,6 +9,10 @@
     
 }
 
+.bars{
+    display: hidden;
+}
+
 
 #hero{
     min-height: 100vh;
@@ -72,3 +76,46 @@
 }
 
 
+@media (max-width:576px) {
+    .nav-bar{
+        flex-direction: row;
+        padding : 5 var(--padd-sm);
+        width: 100%;
+        justify-content: space-between;
+    }
+    .bars{
+        display: block;
+    }
+    .links{display: none;
+    }
+
+    .nav:hover{
+        .links{
+            display: block;
+            background: var(--color-primary);
+            position: 50px;
+        }
+    }
+
+
+
+    #hero{
+        padding : 5 var(--padd-sm);
+    }
+
+    #about{
+        padding : 5 var(--padd-sm);
+    }
+
+    #projects{
+        padding : 5 var(--padd-sm);
+    }
+
+    #experiences{
+        padding : 5 var(--padd-sm);
+    }
+
+    #contact{
+        padding : 5 var(--padd-sm);
+    }
+}

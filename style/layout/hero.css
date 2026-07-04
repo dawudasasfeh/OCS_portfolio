@@ -21,3 +21,11 @@
 .hero__btns{
     display: flex;
 }
+
+@media (max-width:576px) {
+    #hero{
+        flex-direction: column;
+    }
+    
+    
+}
