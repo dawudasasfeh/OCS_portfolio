@@ -1,0 +1,42 @@
+.icon{
+    font-size: xx-large;
+}
+
+.icon-as{
+    height:25px;
+}
+
+.icon-og{
+    width: 25px;
+    height:25px;
+}
+
+.icon-cn{
+    color: var(--color-text-muted-on-dark);
+    border: 1px solid var(--color-text-muted-on-dark);
+    border-radius: var(--radius-sm);
+    padding : 10px ;
+}
+
+
+.skills__icons{
+    
+    gap: 10px;
+}
+
+
+.skills__front,
+.skills__tools {
+  border-right: 1px solid var(--color-accent);
+}
+
+.skills__front,
+.skills__back {
+  border-bottom: 1px solid var(--color-accent);
+
+}
+
+.skills__back,
+.skills__soft{
+    padding-left: 10px;
+}

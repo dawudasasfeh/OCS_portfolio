@@ -1,0 +1,16 @@
+.experience{
+    background: var(--color-text-light);
+    border-radius: var(--radius-sm);
+}
+
+.experience-txt{
+    width : 70%;
+}
+
+.icon-date{
+    width: 30%;
+}
+
+.icon-icon{
+    gap: 10px;
+}

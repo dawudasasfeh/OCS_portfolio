@@ -1,0 +1,25 @@
+#hero__right{
+    border-radius: var(--radius-full);
+    height: var(--size-lg);
+    width: var(--size-lg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hero__img{
+        width: inherit;
+}
+
+.hero__name{
+    color: var(--color-accent);
+}
+
+.hero__pro-title{
+    color: var(--color-text-light);
+}
+
+.hero__tagline{
+    color: var(--color-text-muted-on-dark);
+}

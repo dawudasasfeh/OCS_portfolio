@@ -1,0 +1,23 @@
+.contact__card{
+    background: #2C4A5C;
+    border-radius: var(--radius-sm);
+    width:650px;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.contact__icon{
+    font-size: 50px;
+}
+
+.contact__icons{
+    gap: 40px;
+    font-size: xx-large;
+}
+
+.contact{
+        gap: 30px;
+}
+
+
+

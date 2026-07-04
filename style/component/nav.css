@@ -1,0 +1,10 @@
+.links{
+    a{
+    color: var(--color-text-light);
+    }
+    gap: var(--space-lg);
+}
+
+.nav-bar{
+    height: 10px;
+}

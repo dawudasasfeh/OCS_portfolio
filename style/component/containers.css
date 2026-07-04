@@ -1,0 +1,42 @@
+.container-h1{
+    height: 350px;
+}
+
+.container-h2{
+    height: 110px;
+}
+
+.container-h3{
+    height: 180px;
+}
+
+.container-w{
+    width:450px;
+}
+
+.container{
+    background: var(--color-text-light);
+    border-radius: var(--radius-sm);
+    margin-top: 5px;
+    padding: 15px 10px;
+}
+
+.project{
+    margin-top: 10px;
+    height: 270px;
+}
+
+.project__l{
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+}
+
+.experience{
+    padding:15px 10px;
+}
+
+.experience__company{
+    margin-bottom: 20px;
+}
+

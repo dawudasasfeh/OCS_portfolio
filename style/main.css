@@ -1,0 +1,21 @@
+@import "base/reset.css";
+@import "base/typography.css";
+@import "base/variables.css";
+
+@import "component/nav.css";
+@import "component/hero.css";
+@import "component/btn.css";
+@import "component/containers.css";
+@import "component/project.css";
+@import "component/experience.css";
+@import "component/contact.css";
+@import "component/icon.css";
+
+@import "layout/about.css";
+@import "layout/contact.css";
+@import "layout/experience.css";
+@import "layout/hero.css";
+@import "layout/nav.css";
+@import "layout/projects.css";
+
+@import "page/home.css";

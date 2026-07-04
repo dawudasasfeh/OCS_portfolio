@@ -1,0 +1,74 @@
+
+
+.nav-bar{
+    padding: var(--padd-sm);
+    width: 100%;    
+    height: 15vh;
+    background: var(--color-primary);
+    
+    
+}
+
+
+#hero{
+    min-height: 100vh;
+    padding: 15vh var(--padd-lg) 0 var(--padd-lg);
+    background: var(--color-primary);
+    gap:var(--space-lg)
+}
+
+#hero__left{
+    width: 60%;
+    gap: var(--space-lg);
+    .hero__tagline{
+        width:83%;
+    }
+}
+
+.hero__btns{
+    gap:var(--space-md);
+}
+
+
+#about{
+    min-height: 100vh;
+    background: var( --color-bg-light);
+    padding:15vh var(--padd-lg) 0 var(--padd-lg);
+    color: var(--color-text-body);
+}
+.about{
+    gap: var(--space-lg);
+}
+
+#projects{
+    min-height: 100vh;
+    background: var( --color-bg-light);
+    padding: 15vh var(--padd-lg) 0 var(--padd-lg);
+    color: var(--color-text-body);
+}
+
+.projects{
+        gap: 20px;
+}
+
+
+
+#experiences{
+    min-height: 100vh;
+    background: var( --color-bg-light);
+    padding: 15vh var(--padd-lg) 0 var(--padd-lg);
+    color: var(--color-text-body);
+}
+.experiences{
+    gap: 30px;
+}
+
+
+#contact{
+    min-height: 90vh;
+    background: var( --color-primary);
+    padding: 5vh var(--padd-lg) 0 var(--padd-lg);
+    color: var(--color-text-muted-on-dark);
+}
+
+

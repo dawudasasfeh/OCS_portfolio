@@ -1,0 +1,27 @@
+.experiences{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+
+.experience__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-date{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-icon{
+    display: flex;
+}

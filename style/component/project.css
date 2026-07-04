@@ -1,0 +1,24 @@
+.project{
+    background: var(--color-text-light);
+    border-radius: var(--radius-sm);
+}
+
+.project__l{
+    width: 75%;
+}
+
+.project__r{
+    width: 25%;
+    background: var(--color-primary);
+    border-top-right-radius: var(--radius-sm);
+    border-bottom-right-radius: var(--radius-sm);
+
+}
+
+.project__title{
+    padding-right: 40px;
+}
+
+.project__icon{
+    gap:10px
+}
