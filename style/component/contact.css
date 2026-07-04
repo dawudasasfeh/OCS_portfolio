@@ -21,3 +21,10 @@
 
 
 
+@media (max-width: 576px) {
+  .contact__card {
+    width: 100%;
+    height: auto;
+    padding: var(--space-lg);
+  }
+}

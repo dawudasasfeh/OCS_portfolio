@@ -14,3 +14,16 @@
 .icon-icon{
     gap: 10px;
 }
+
+@media (max-width: 576px) {
+  .experience__title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-xs);
+  }
+
+  .experience-txt,
+  .icon-date {
+    width: 100%;
+  }
+}

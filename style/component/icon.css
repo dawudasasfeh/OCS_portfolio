@@ -40,3 +40,9 @@
 .skills__soft{
     padding-left: 10px;
 }
+
+@media (max-width: 576px) {
+  .project__icon .icon {
+    font-size: 1.5rem;
+  }
+}

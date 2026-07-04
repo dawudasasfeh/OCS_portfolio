@@ -22,3 +22,27 @@
 .project__icon{
     gap:10px
 }
+
+@media (max-width: 576px) {
+  .project {
+    flex-direction: column;
+  }
+
+  .project__l,
+  .project__r {
+    width: 100%;
+  }
+
+  .project__r {
+    border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+  }
+  .project__title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-xs);
+  }
+
+  .project__icon {
+    flex-wrap: wrap;
+  }
+}
