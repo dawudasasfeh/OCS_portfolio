@@ -82,12 +82,12 @@
   :root {
 
     /* Type Scale */
-    --font-signature: 40px;
+    --font-signature: 38px;
     --font-label: 0.625rem;
-    --font-h1: 28px;
-    --font-h2: 20px;
-    --font-h3: 17px;
-    --font-regular: 16px;
+    --font-h1: 26px;
+    --font-h2: 19px;
+    --font-h3: 16px;
+    --font-regular: 14px;
     --font-small: 1rem;
 
     /* Spacing */

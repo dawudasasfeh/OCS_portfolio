@@ -35,3 +35,12 @@
 .skills__icon{
     display: flex;
 }
+
+
+@media (max-width:576px) {
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
