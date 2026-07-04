@@ -4,11 +4,15 @@
 }
 
 .experience-txt{
-    width : 70%;
+    width : 150%;
 }
 
 .icon-date{
-    width: 30%;
+    width: 70%;
+}
+
+#experience-date{
+  width :30%;
 }
 
 .icon-icon{
@@ -25,5 +29,13 @@
   .experience-txt,
   .icon-date {
     width: 100%;
+  }
+
+  .experience-date{
+    align-self: flex-end;
+  }
+
+  .experience{
+    gap:10px;
   }
 }

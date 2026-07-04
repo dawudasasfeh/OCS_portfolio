@@ -24,7 +24,17 @@
 
 @media (max-width:576px) {
     #hero{
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hero__left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     
     

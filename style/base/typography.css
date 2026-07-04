@@ -57,3 +57,11 @@
 .og{
   color: var(--color-accent);
 }
+
+@media (max-width:576px) {
+  .h1{
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+}

@@ -78,28 +78,40 @@
 @media (max-width:576px) {
     .nav-bar{
         flex-direction: row;
-        padding : 5 var(--padd-sm);
+        padding : 5px var(--padd-sm);
         justify-content: space-between;
-        text-align: center;
     }
-    .bars{
-        display: block;
+    .nav i{
+        display: flex;
+        color: var(--color-accent);
+        font-size: x-large;
     }
     .links{display: none;
     }
 
     .nav:hover{
-        .links{
+        .nav i{
             display: block;
+        }
+        .links{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
             background: var(--color-primary);
-            position: 50px;
+            border: 1px solid var(--color-accent);
+            border-radius: var(--radius-sm);
+            a{
+                color: var(--color-accent);
+            }
+            position: relative;
+            top: 100px;
         }
     }
 
-
-
     #hero{
         padding : 5px var(--padd-sm);
+        text-align: center;
     }
 
     #about{
@@ -117,4 +129,10 @@
     #contact{
         padding : 5px var(--padd-sm);
     }
+
+    .about__right{
+        gap: 20px;
+    }
+
+
 }

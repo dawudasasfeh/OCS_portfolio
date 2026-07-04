@@ -28,20 +28,24 @@
     flex-direction: column;
   }
 
-  .project__l,
-  .project__r {
+  .project__l, .hero__left,
+  .project__r, .hero__right {
     width: 100%;
   }
 
   .project__r {
     border-radius: 0 0 var(--radius-sm) var(--radius-sm);
+    height: 70px;
   }
   .project__title {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    gap: var(--space-xs);
+    justify-content: space-between;
   }
 
+  .project__l{
+    gap:10px;
+  }
   .project__icon {
     flex-wrap: wrap;
   }
