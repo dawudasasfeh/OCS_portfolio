@@ -1,43 +1,68 @@
-.container-h1{
-    height: 350px;
+.container-h1 {
+  height: 350px;
 }
 
-.container-h2{
-    height: 110px;
+.container-h2 {
+  height: 110px;
 }
 
-.container-h3{
-    height: 180px;
+.container-h3 {
+  height: 180px;
 }
 
-.container-w{
-    width:450px;
+.container-w {
+  width: 450px;
 }
 
-.container{
-    background: var(--color-text-light);
-    border-radius: var(--radius-sm);
-    margin-top: 5px;
-    padding: 15px 10px;
+.container {
+  background: var(--color-text-light);
+  border-radius: var(--radius-sm);
+  margin-top: 5px;
+  padding: 15px 10px;
 }
 
-.project{
-    margin-top: 10px;
-    height: 270px;
+.project {
+  margin-top: 10px;
+  height: 270px;
 }
 
-.project__l{
-    padding-left: 10px;
-    padding-top: 15px;
-    padding-bottom: 15px;   
+.project__l {
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
-.experience{
-    padding:15px 10px;
+.experience {
+  padding: 15px 10px;
 }
 
-.experience__company{
-    margin-bottom: 20px;
+.experience__company {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+  .container-w {
+    width: 100%;
+  }
+
+  .container-h1 {
+    height: auto;
+    min-height: 260px;
+  }
+
+  .container-h2 {
+    height: auto;
+    min-height: 100px;
+  }
+
+  .container-h3 {
+    height: auto;
+    min-height: 200px;
+  }
+
+  .project {
+    height: auto;
+  }
 }
 
 @media (max-width: 576px) {
@@ -62,7 +87,6 @@
 
   .project {
     height: auto;
-    
   }
 
   .project__title {

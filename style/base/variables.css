@@ -1,11 +1,9 @@
 :root {
 
-  /* Font Families */
   --font-family-signature: 'Caveat', cursive;
   --font-family-heading: 'Space Grotesk', sans-serif;
   --font-family-body: 'IBM Plex Sans', sans-serif;
 
-  /* Colors */
   --color-primary: #233D4D;
   --color-accent: #FE7F2D;
   --color-bg-light: #EAECF0;
@@ -15,20 +13,17 @@
   --color-text-muted: #6B7280;
   --color-text-muted-on-dark: #B8C2CC;
 
-  /* Spacing */
   --space-xs: 0.5rem;
   --space-sm: 1rem;
   --space-md: 1.5rem;
   --space-lg: 2.5rem;
   --space-xl: 4rem;
 
-  /* Radius */
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 16px;
   --radius-full: 999px;
 
-  /* Type Scale */
   --font-signature: 60px;
   --weight-signature: 700;
   --lh-signature: 1;
@@ -64,24 +59,49 @@
   --lh-small: 1.5;
   --ls-small: 0;
 
-  /* Padding */
-  --padd-sm : 50px;
-  --padd-lg : 150px;
+  --padd-sm: 50px;
+  --padd-lg: 150px;
 
-  /* Size */
-  --size-sm:25px;
-  --size-md:50px;
-  --size-lg:350px;
-
-
+  --size-sm: 25px;
+  --size-md: 50px;
+  --size-lg: 350px;
 
 }
 
+@media (max-width: 992px) {
+  :root {
+
+    --font-signature: 48px;
+    --font-label: 0.65rem;
+    --font-h1: 32px;
+    --font-h2: 22px;
+    --font-h3: 18px;
+    --font-regular: 16px;
+    --font-small: 1.125rem;
+
+    --space-xs: 0.5rem;
+    --space-sm: 0.875rem;
+    --space-md: 1.25rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+
+    --radius-sm: 5px;
+    --radius-md: 9px;
+    --radius-lg: 14px;
+
+    --padd-sm: 32px;
+    --padd-lg: 80px;
+
+    --size-sm: 20px;
+    --size-md: 40px;
+    --size-lg: 280px;
+
+  }
+}
 
 @media (max-width: 576px) {
   :root {
 
-    /* Type Scale */
     --font-signature: 38px;
     --font-label: 0.625rem;
     --font-h1: 24px;
@@ -90,23 +110,19 @@
     --font-regular: 14px;
     --font-small: 1rem;
 
-    /* Spacing */
     --space-xs: 0.375rem;
     --space-sm: 0.75rem;
     --space-md: 1rem;
     --space-lg: 1.5rem;
     --space-xl: 2rem;
 
-    /* Radius */
     --radius-sm: 4px;
     --radius-md: 8px;
     --radius-lg: 12px;
 
-    /* Padding */
     --padd-sm: 16px;
     --padd-lg: 40px;
 
-    /* Size */
     --size-sm: 18px;
     --size-md: 32px;
     --size-lg: 220px;

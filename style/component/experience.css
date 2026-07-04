@@ -1,22 +1,22 @@
-.experience{
-    background: var(--color-text-light);
-    border-radius: var(--radius-sm);
+.experience {
+  background: var(--color-text-light);
+  border-radius: var(--radius-sm);
 }
 
-.experience-txt{
-    width : 150%;
+.experience-txt {
+  width: 150%;
 }
 
-.icon-date{
-    width: 70%;
+.icon-date {
+  width: 70%;
 }
 
-#experience-date{
-  width :30%;
+#experience-date {
+  width: 30%;
 }
 
-.icon-icon{
-    gap: 10px;
+.icon-icon {
+  gap: 10px;
 }
 
 @media (max-width: 576px) {
@@ -31,11 +31,11 @@
     width: 100%;
   }
 
-  .experience-date{
+  .experience-date {
     align-self: flex-end;
   }
 
-  .experience{
-    gap:10px;
+  .experience {
+    gap: 15px;
   }
 }

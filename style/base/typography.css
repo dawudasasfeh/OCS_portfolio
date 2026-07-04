@@ -22,7 +22,7 @@
   letter-spacing: var(--ls-h1);
 }
 
-.h2{
+.h2 {
   font-family: var(--font-family-heading);
   font-size: var(--font-h2);
   font-weight: var(--weight-h2);
@@ -46,7 +46,7 @@
   letter-spacing: var(--ls-regular);
 }
 
-.text-small{
+.text-small {
   font-family: var(--font-family-body);
   font-size: var(--font-small);
   font-weight: var(--weight-small);
@@ -54,14 +54,19 @@
   letter-spacing: var(--ls-small);
 }
 
-.og{
+.og {
   color: var(--color-accent);
 }
 
-@media (max-width:576px) {
-  .h1{
+@media (max-width: 992px) {
+  .h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .h1 {
     margin-bottom: 20px;
     text-align: center;
   }
-  
 }

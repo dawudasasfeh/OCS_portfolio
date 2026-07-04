@@ -1,25 +1,36 @@
-.contact__card{
-    background: #2C4A5C;
-    border-radius: var(--radius-sm);
-    width:650px;
-    height: 350px;
-    margin-top: 10px;
+.contact__card {
+  background: #2C4A5C;
+  border-radius: var(--radius-sm);
+  width: 650px;
+  height: 350px;
+  margin-top: 10px;
 }
 
-.contact__icon{
-    font-size: 50px;
+.contact__icon {
+  font-size: 50px;
 }
 
-.contact__icons{
-    gap: 40px;
-    font-size: xx-large;
+.contact__icons {
+  gap: 40px;
+  font-size: xx-large;
 }
 
-.contact{
-        gap: 30px;
+.contact {
+  gap: 30px;
 }
 
+@media (max-width: 992px) {
+  .contact__card {
+    width: 90%;
+    max-width: 550px;
+    height: auto;
+    padding: var(--space-lg);
+  }
 
+  .contact__icons {
+    gap: 24px;
+  }
+}
 
 @media (max-width: 576px) {
   .contact__card {

@@ -1,37 +1,34 @@
-.icon{
-    font-size: xx-large;
+.icon {
+  font-size: xx-large;
 }
 
-.icon-as{
-    height:25px;
+.icon-as {
+  height: 25px;
 }
 
-.icon-og{
-    width: 25px;
-    height:25px;
+.icon-og {
+  width: 25px;
+  height: 25px;
 }
 
-.icon-cn{
-    color: var(--color-text-muted-on-dark);
-    border: 1px solid var(--color-text-muted-on-dark);
-    border-radius: var(--radius-sm);
-    padding : 10px ;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+.icon-cn {
+  color: var(--color-text-muted-on-dark);
+  border: 1px solid var(--color-text-muted-on-dark);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-.icon-cn:hover{
-    color: var(--color-accent);
-    border: 1px solid var(--color-accent);
-    transform: translateY(-4px);
-    box-shadow: 0 8px 20px rgba(254, 127, 45, 0.35);
+.icon-cn:hover {
+  color: var(--color-accent);
+  border: 1px solid var(--color-accent);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(254, 127, 45, 0.35);
 }
 
-
-.skills__icons{
-    
-    gap: 10px;
+.skills__icons {
+  gap: 10px;
 }
-
 
 .skills__front,
 .skills__tools {
@@ -41,12 +38,17 @@
 .skills__front,
 .skills__back {
   border-bottom: 1px solid var(--color-accent);
-
 }
 
 .skills__back,
-.skills__soft{
-    padding-left: 10px;
+.skills__soft {
+  padding-left: 10px;
+}
+
+@media (max-width: 992px) {
+  .project__icon .icon {
+    font-size: 1.75rem;
+  }
 }
 
 @media (max-width: 576px) {
