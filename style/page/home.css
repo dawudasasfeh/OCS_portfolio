@@ -70,9 +70,9 @@ html {
 }
 
 #contact {
-  min-height: 100vh;
+  min-height: 90vh;
   background: var(--color-primary);
-  padding: 12vh var(--padd-lg);
+  padding: 15px var(--padd-lg) 15px var(--padd-lg);
   color: var(--color-text-muted-on-dark);
 }
 
