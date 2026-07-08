@@ -1,4 +1,4 @@
-.container-h1 {
+/* .container-h1 {
   height: 350px;
 }
 
@@ -8,10 +8,11 @@
 
 .container-h3 {
   height: 180px;
-}
+} */
 
 .container-w {
-  width: 450px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .container {

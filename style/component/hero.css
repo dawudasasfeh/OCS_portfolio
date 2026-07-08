@@ -14,14 +14,17 @@
 
 .hero__name {
   color: var(--color-accent);
+  margin-bottom: var(--space-xs);
 }
 
 .hero__pro-title {
   color: var(--color-text-light);
+  margin-bottom: var(--space-md);
 }
 
 .hero__tagline {
   color: var(--color-text-muted-on-dark);
+  margin-bottom: var(--space-lg);
 }
 
 @media (max-width: 992px) {

@@ -15,17 +15,17 @@ html {
 
 #hero {
   min-height: 100vh;
-  padding: 15vh var(--padd-lg) 0 var(--padd-lg);
+  padding: 10vh var(--padd-lg) 0 var(--padd-lg);
   background: var(--color-primary);
-  gap: var(--space-lg)
+  gap: var(--space-xl);
 }
 
 #hero__left {
   width: 60%;
-  gap: var(--space-lg);
-  .hero__tagline {
-    width: 83%;
-  }
+}
+
+#hero__left .hero__tagline {
+  width: 83%;
 }
 
 .hero__btns {
@@ -35,12 +35,16 @@ html {
 #about {
   min-height: 100vh;
   background: var(--color-bg-light);
-  padding: 15vh var(--padd-lg) 0 var(--padd-lg);
+  padding: 15vh var(--padd-lg) 10vh var(--padd-lg);
   color: var(--color-text-body);
 }
 
-.about {
-  gap: var(--space-lg);
+.about__me {
+  min-height: auto;
+}
+
+.about__right {
+  min-height: auto;
 }
 
 #projects {

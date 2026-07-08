@@ -24,22 +24,30 @@
 
 @media (max-width: 992px) {
   #hero {
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-md);
+  }
+
+  #hero__left {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    order: 2;
+  }
+
+  #hero__right {
+    order: 1;
+    margin-bottom: var(--space-md);
   }
 }
 
 @media (max-width: 576px) {
-  #hero {
-    display: flex;
+  .hero__btns {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-  }
-
-  #hero__left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 100%;
   }
 }

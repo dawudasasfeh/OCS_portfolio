@@ -1,8 +1,15 @@
-.experiences{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-self: center;
+.experiences {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.experiences__header {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto var(--space-md) auto;
 }
 
 .experience__title{
