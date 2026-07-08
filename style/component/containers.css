@@ -94,3 +94,17 @@
     padding-right: 0;
   }
 }
+
+.container,
+.project,
+.experience {
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 4px 12px rgba(35, 61, 77, 0.04);
+}
+
+.container:hover,
+.project:hover,
+.experience:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 36px rgba(35, 61, 77, 0.08), 0 4px 16px rgba(254, 127, 45, 0.12);
+}

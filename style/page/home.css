@@ -35,7 +35,7 @@ html {
 #about {
   min-height: 100vh;
   background: var(--color-bg-light);
-  padding: 15vh var(--padd-lg) 10vh var(--padd-lg);
+  padding: 12vh var(--padd-lg);
   color: var(--color-text-body);
 }
 
@@ -50,7 +50,7 @@ html {
 #projects {
   min-height: 100vh;
   background: var(--color-bg-light);
-  padding: 15vh var(--padd-lg) 0 var(--padd-lg);
+  padding: 12vh var(--padd-lg);
   color: var(--color-text-body);
 }
 
@@ -61,7 +61,7 @@ html {
 #experiences {
   min-height: 100vh;
   background: var(--color-bg-light);
-  padding: 15vh var(--padd-lg) 0 var(--padd-lg);
+  padding: 12vh var(--padd-lg);
   color: var(--color-text-body);
 }
 
@@ -70,9 +70,9 @@ html {
 }
 
 #contact {
-  min-height: 90vh;
+  min-height: 100vh;
   background: var(--color-primary);
-  padding: 5vh var(--padd-lg) 0 var(--padd-lg);
+  padding: 12vh var(--padd-lg);
   color: var(--color-text-muted-on-dark);
 }
 
@@ -90,19 +90,19 @@ html {
   }
 
   #about {
-    padding: 12vh var(--padd-lg) 0 var(--padd-lg);
+    padding: 10vh var(--padd-lg);
   }
 
   #projects {
-    padding: 12vh var(--padd-lg) 0 var(--padd-lg);
+    padding: 10vh var(--padd-lg);
   }
 
   #experiences {
-    padding: 12vh var(--padd-lg) 0 var(--padd-lg);
+    padding: 10vh var(--padd-lg);
   }
 
   #contact {
-    padding: 4vh var(--padd-lg) 0 var(--padd-lg);
+    padding: 10vh var(--padd-lg);
   }
 
   .about__right {
@@ -149,24 +149,24 @@ html {
   }
 
   #hero {
-    padding: 5px var(--padd-sm);
+    padding: 12vh var(--padd-sm) 6vh var(--padd-sm);
     text-align: center;
   }
 
   #about {
-    padding: 5px var(--padd-sm);
+    padding: 10vh var(--padd-sm);
   }
 
   #projects {
-    padding: 5px var(--padd-sm);
+    padding: 10vh var(--padd-sm);
   }
 
   #experiences {
-    padding: 5px var(--padd-sm);
+    padding: 10vh var(--padd-sm);
   }
 
   #contact {
-    padding: 5px var(--padd-sm);
+    padding: 10vh var(--padd-sm);
   }
 
   .about__right {
