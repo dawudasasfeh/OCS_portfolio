@@ -20,3 +20,14 @@
     gap: var(--space-md);
   }
 }
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.logo:hover {
+  transform: scale(1.15) rotate(-3deg);
+  filter: drop-shadow(0 0 8px rgba(254, 127, 45, 0.45));
+}

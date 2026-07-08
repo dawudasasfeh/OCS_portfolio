@@ -1,18 +1,70 @@
 .contact__card {
-  background: #2C4A5C;
+  background: #2c4a5c;
   border-radius: var(--radius-sm);
-  width: 650px;
-  height: 350px;
+  width: 500px;
+  height: 290px;
   margin-top: 10px;
+  padding: 32px var(--space-md);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contact__card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25), 0 0 20px rgba(254, 127, 45, 0.15);
+}
+
+.contact__icon-wrapper {
+  background: rgba(254, 127, 45, 0.1);
+  color: var(--color-accent);
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-full);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(254, 127, 45, 0.2);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.contact__card:hover .contact__icon-wrapper {
+  transform: scale(1.1) rotate(-8deg);
 }
 
 .contact__icon {
-  font-size: 50px;
+  font-size: 26px;
+}
+
+.contact__header {
+  color: var(--color-text-light);
+  font-size: 22px;
+  margin: 0;
+}
+
+.contact__desc {
+  color: var(--color-text-muted-on-dark);
+  text-align: center;
+  max-width: 360px;
+  line-height: 1.5;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.contact__btn {
+  width: 180px !important;
+  height: 48px !important;
+  font-size: 16px !important;
 }
 
 .contact__icons {
   gap: 40px;
   font-size: xx-large;
+  margin-top: var(--space-md);
 }
 
 .contact {
@@ -22,9 +74,10 @@
 @media (max-width: 992px) {
   .contact__card {
     width: 90%;
-    max-width: 550px;
+    max-width: 500px;
     height: auto;
     padding: var(--space-lg);
+    gap: var(--space-sm);
   }
 
   .contact__icons {
@@ -37,5 +90,10 @@
     width: 100%;
     height: auto;
     padding: var(--space-lg);
+    gap: var(--space-sm);
+  }
+
+  .contact__desc {
+    font-size: 15px;
   }
 }

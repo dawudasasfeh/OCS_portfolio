@@ -11,24 +11,3 @@
   max-width: 1000px;
   margin: 0 auto var(--space-md) auto;
 }
-
-.experience__title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.experience{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.icon-date{
-    display: flex;
-    justify-content: space-between;
-}
-
-.icon-icon{
-    display: flex;
-}

@@ -6,17 +6,8 @@
     flex-direction: column;
 }
 
-.contact__card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-
 .contact__icons{
     display: flex;
-    
 }
 
 @media (max-width:576px) {

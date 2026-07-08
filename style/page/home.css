@@ -16,7 +16,7 @@ html {
 #hero {
   min-height: 100vh;
   padding: 10vh var(--padd-lg) 0 var(--padd-lg);
-  background: var(--color-primary);
+  background: radial-gradient(circle at 75% 50%, #2d4857 0%, var(--color-primary) 80%);
   gap: var(--space-xl);
 }
 
@@ -70,10 +70,13 @@ html {
 }
 
 #contact {
-  min-height: 90vh;
+  min-height: 100vh;
   background: var(--color-primary);
-  padding: 15px var(--padd-lg) 15px var(--padd-lg);
+  padding: 0 var(--padd-lg);
   color: var(--color-text-muted-on-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 992px) {
@@ -83,6 +86,7 @@ html {
 
   #hero {
     padding: 12vh var(--padd-lg) 0 var(--padd-lg);
+    background: radial-gradient(circle at 50% 30%, #2d4857 0%, var(--color-primary) 80%);
   }
 
   #hero__left {
@@ -102,7 +106,7 @@ html {
   }
 
   #contact {
-    padding: 10vh var(--padd-lg);
+    padding: 0 var(--padd-lg);
   }
 
   .about__right {
@@ -135,22 +139,35 @@ html {
     .links {
       display: flex;
       flex-direction: column;
-      gap: 20px;
-      padding: 20px;
-      background: var(--color-primary);
-      border: 1px solid var(--color-accent);
-      border-radius: var(--radius-sm);
+      align-items: center;
+      gap: 24px;
+      padding: 30px var(--padd-sm);
+      background: rgba(35, 61, 77, 0.96);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 2px solid var(--color-accent);
+      position: absolute;
+      top: 10vh;
+      left: 0;
+      width: 100vw;
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+      z-index: 1001;
       a {
+        color: var(--color-text-light);
+        font-size: 18px;
+        font-weight: 600;
+        transition: color 0.2s ease;
+      }
+      a:hover, a:active {
         color: var(--color-accent);
       }
-      position: relative;
-      top: 100px;
     }
   }
 
   #hero {
     padding: 12vh var(--padd-sm) 6vh var(--padd-sm);
     text-align: center;
+    background: radial-gradient(circle at 50% 25%, #2d4857 0%, var(--color-primary) 85%);
   }
 
   #about {
@@ -166,7 +183,7 @@ html {
   }
 
   #contact {
-    padding: 10vh var(--padd-sm);
+    padding: 40px var(--padd-sm);
   }
 
   .about__right {
