@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 9vh;
 }
 
 .nav-bar {
@@ -16,7 +17,7 @@ html {
 #hero {
   min-height: 100vh;
   padding: 10vh var(--padd-lg) 0 var(--padd-lg);
-  background: radial-gradient(circle at 75% 50%, #2d4857 0%, var(--color-primary) 80%);
+  background: var(--color-primary);
   gap: var(--space-xl);
 }
 
@@ -35,7 +36,7 @@ html {
 #about {
   min-height: 100vh;
   background: var(--color-bg-light);
-  padding: 12vh var(--padd-lg);
+  padding: 6vh var(--padd-lg);
   color: var(--color-text-body);
 }
 
@@ -50,7 +51,7 @@ html {
 #projects {
   min-height: 100vh;
   background: var(--color-bg-light);
-  padding: 12vh var(--padd-lg);
+  padding: 6vh var(--padd-lg);
   color: var(--color-text-body);
 }
 
@@ -61,7 +62,7 @@ html {
 #experiences {
   min-height: 100vh;
   background: var(--color-bg-light);
-  padding: 12vh var(--padd-lg);
+  padding: 6vh var(--padd-lg);
   color: var(--color-text-body);
 }
 
@@ -86,7 +87,6 @@ html {
 
   #hero {
     padding: 12vh var(--padd-lg) 0 var(--padd-lg);
-    background: radial-gradient(circle at 50% 30%, #2d4857 0%, var(--color-primary) 80%);
   }
 
   #hero__left {
@@ -94,23 +94,23 @@ html {
   }
 
   #about {
-    padding: 10vh var(--padd-lg);
-  }
-
-  #projects {
-    padding: 10vh var(--padd-lg);
-  }
-
-  #experiences {
-    padding: 10vh var(--padd-lg);
-  }
-
-  #contact {
     padding: 0 var(--padd-lg);
   }
 
   .about__right {
     gap: var(--space-lg);
+  }
+
+  #projects {
+    padding: 0 var(--padd-lg);
+  }
+
+  #experiences {
+    padding: 0 var(--padd-lg);
+  }
+
+  #contact {
+    padding: 0 var(--padd-lg);
   }
 }
 
@@ -167,27 +167,26 @@ html {
   #hero {
     padding: 12vh var(--padd-sm) 6vh var(--padd-sm);
     text-align: center;
-    background: radial-gradient(circle at 50% 25%, #2d4857 0%, var(--color-primary) 85%);
   }
 
   #about {
-    padding: 10vh var(--padd-sm);
-  }
-
-  #projects {
-    padding: 10vh var(--padd-sm);
-  }
-
-  #experiences {
-    padding: 10vh var(--padd-sm);
-  }
-
-  #contact {
-    padding: 40px var(--padd-sm);
+    padding: 5vh var(--padd-sm);
   }
 
   .about__right {
     gap: 20px;
+  }
+
+  #projects {
+    padding: 5vh var(--padd-sm);
+  }
+
+  #experiences {
+    padding: 5vh var(--padd-sm);
+  }
+
+  #contact {
+    padding: 40px var(--padd-sm);
   }
 
 }

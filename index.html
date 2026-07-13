@@ -21,6 +21,7 @@
             <nav class="links">
                 <a class="link h3" href="#hero">Home</a>
                 <a class="link h3" href="#about">About</a>
+                <a class="link h3" href="#skills">Skills</a>
                 <a class="link h3" href="#projects">Projects</a>
                 <a class="link h3" href="#experiences">Experience</a>
                 <a class="link h3" href="#contact">Contact</a>
@@ -36,7 +37,7 @@
                 <span class="hero__pro-title h1">Computer Engineer | Aspiring Backend Developer</span>
                 <p class="hero__tagline h2">Curious about how software works — from the interface down to the systems underneath.</p>
                 <div class="hero__btns">
-                    <a class="hero__btn-l btn h2" href="#projects">View My Work</a>
+                    <a class="hero__btn-l btn h2" href="assets/DawudAlasasfeh_FullStackDev.pdf" target="_blank">View Resume</a>
                     <a class="hero__btn-r btn h2" href="#contact">Contact Me</a>
                 </div>
             </div>
@@ -93,9 +94,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div></div>
+                    </div>
 
-                   <div class="about__skills">
+                    <div class="about__skills" id="skills">
                         <p class="skills__header header h1">Skills</p>
                         <div class="skills__grid">
  
@@ -205,9 +206,9 @@
  
                         </div>
                     </div>
-
                 </div>
-            </div>    
+ 
+            </div>
         </section>        <section id="projects">
             <p class="projects__header header h1">Projects</p>
             <div class="projects">
@@ -227,7 +228,10 @@
                     <p class="project__desc text-regular">B2B marketplace connecting suppliers with retailers</p>
                     <p class="project__p text-regular"><strong>Problem:</strong> Sourcing products meant fragmented supplier searches, phone calls, and manual database lookups.</p>
                     <p class="project__s text-regular"><strong>Solution:</strong> Silsila centralizes sourcing into one AI-assisted platform, connecting retailers with suppliers in a single place.</p>
-                    <span class="project__navigator text-regular private"><i class="fa-solid fa-lock"></i> Private Repository</span>
+                    <div class="project__links">
+                        <span class="project__navigator text-regular private"><i class="fa-solid fa-lock"></i> Private Repository</span>
+                        <a href="https://silsila-demo.pages.dev" target="_blank" class="project__navigator text-regular"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo →</a>
+                    </div>
                 </div>
  
                 <div class="project__r">
@@ -245,10 +249,12 @@
                         <i class="devicon-javascript-plain  icon"></i>
                     </div>
                     </div>
-                    <p class="project__desc text-regular">Design-to-code challenges — HTML, CSS, JavaScript</p>
+                    <p class="project__desc text-regular">Design-to-code challenges</p>
                     <p class="project__p text-regular"><strong>Problem:</strong> Translating professional, pixel-perfect designs into clean, functional code requires precision most tutorials don't teach.</p>
                     <p class="project__s text-regular"><strong>Solution:</strong> Built 5 real-world UI components from professional specs — a social links profile, QR code card, blog preview card, interactive FAQ accordion, and a sign-up form with client-side validation — each one live and deployed.</p>
-                    <a href="https://github.com/dawudasasfeh" target="_blank" class="project__navigator text-regular og">View Live on GitHub Pages →</a>
+                    <div class="project__links">
+                        <a href="https://github.com/dawudasasfeh" target="_blank" class="project__navigator text-regular og"><i class="fa-brands fa-github"></i> View Live on GitHub Pages →</a>
+                    </div>
                 </div>
  
                 <div class="project__r">
@@ -321,8 +327,11 @@
                     <i class="fa-brands fa-linkedin-in icon-cn"></i>
                     </a>
                 </div>
-                </div>
         </section>
+    </main>
+
+    <footer class="footer">
+        <p class="text-regular">© 2026 Dawud Alasasfeh. All rights reserved.</p>
     </footer>
 </body>
 </html>
