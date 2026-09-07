@@ -24,7 +24,7 @@
 
 .project {
   margin-top: 10px;
-  height: 270px;
+  min-height: 270px;
 }
 
 .project__l {
